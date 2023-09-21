@@ -1,0 +1,33 @@
+@import './bootstrap';
+
+
+.coloreSfondo {
+    background-color: rgb(220, 238, 235);
+   
+}
+
+.artcontenitore{
+    display: flex;
+    height: 600 px;
+    background-color: rgb(193, 241, 217);
+    
+}
+
+.logo{
+    display: flex;
+    flex:1;
+    background-color: rgba(0,0,0,0);
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenitoremenu {
+    display: flex;
+    flex:1;
+    background-color: rgba(0,0,0,0);
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
