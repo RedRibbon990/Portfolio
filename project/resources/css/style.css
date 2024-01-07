@@ -1,0 +1,188 @@
+/* ////////// */
+/* Box for Me */
+#sidebarSection {
+    padding: 0;
+}
+
+#menu {
+    background-color: rgb(32, 27, 27);
+    height: 100%;
+    width: 262px;
+    position: fixed;
+    top: 0;
+}
+
+.homeImg {
+    height: 150px;
+    width: 120px; 
+    position: fixed;
+    margin-left: 65px;
+    top: 0px;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 200px;
+    color: #f1f1f1;
+}
+
+.infoMenu {
+    padding-left: 20px;
+}
+
+.infoMenu >p {
+    padding-left: 20px;
+}
+
+
+.progress > P {
+    padding-left: 10PX;
+}
+
+.progress > a {
+    text-decoration: none;
+    padding-left: 10PX;
+}
+
+.contact > .num {
+    margin-left: 4rem;
+    color: white;
+}
+
+.titleInfo {
+    padding-bottom: 10px;
+}
+
+.titleInfo::before {
+    content: "";
+    position: absolute;
+    background-color:rgb(234, 185, 24) ;
+    height: 2px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.title {
+    text-align: end;
+    height:max-content;
+    background-color: rgb(234, 185, 24);
+    padding: 20px;
+    padding-left: 30%;
+    color: #f1f1f1;
+
+}
+/* ////////// */
+/* Navbar */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.openbtn {
+    margin-left: 250px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#menuButton {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 0; /* Set margin initial */
+}
+
+/* Style sidebar open */
+.sidebar.open {
+    width: 250px;
+}
+
+/* Margin main content */
+#main.open {
+    margin-left: 250px;
+    transition: ease-in-out margin-left .5s;
+}
+
+.coloreSfondo {
+    background-color: rgb(220, 238, 235);
+}
+
+.artcontenitore{
+    display: flex;
+    height: 600 px;
+    background-color: rgb(193, 241, 217);
+    
+}
+
+.logo{
+    display: flex;
+    flex:1;
+    background-color: rgba(0,0,0,0);
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenitoremenu {
+    display: flex;
+    flex:1;
+    background-color: rgba(0,0,0,0);
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#homepage {
+    background-color: #111;
+    color: #ffffff;
+}
+
+#homeImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+.container-hp {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.text-container {
+    max-width: 600px;
+}
+
+
+
+
