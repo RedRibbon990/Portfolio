@@ -171,7 +171,6 @@
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    margin-left: auto;
 }
 
 .container-hp {
@@ -183,6 +182,16 @@
     max-width: 600px;
 }
 
+.mix-color {
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-linear-gradient:(315deg, #1e30f3 0%, #e21e80 100%);
+}
 
+.mix-color-txt {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 

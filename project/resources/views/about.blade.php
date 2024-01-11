@@ -32,7 +32,8 @@
                                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
                                             laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
                                             officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
-                                            fuga.</div>
+                                            fuga.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -124,12 +125,13 @@
 
                     <section>
                         <!-- Skillset Card-->
-                        <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card shadow border-0 rounded-4 mb-4">
                             <div class="card-body p-5">
                                 <!-- Professional skills list-->
                                 <div class="mb-5">
                                     <div class="d-flex align-items-center mb-4">
-                                        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                        <div
+                                            class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
                                             <i class="bi bi-tools"></i>
                                         </div>
                                         <h3 class="fw-bolder mb-0">
@@ -183,115 +185,150 @@
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <div class="card shadow border-0 rounded-4 mb-5">
-                                    <div class="card-body p-5">
-
-                                        <!-- Languages list -->
-                                        <div class="mb-0">
-                                            <div class="d-flex align-items-center justify-content-center mb-4">
-                                                <h3 class="fw-bolder mb-0">
-                                                    <span class="text-gradient d-inline">Languages</span>
-                                                </h3>
-                                            </div>
-                                            <div class="row row-cols-1 row-cols-md-2 mb-4">
-                                                <div class="col mb-4 mb-md-0">
-                                                    <span class="text-dark">HTML</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 100%">100%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col mb-4 mb-md-0">
-                                                    <span class="text-dark">CSS</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 90%">90%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col mb-4 mb-md-0 my-2">
-                                                    <span class="text-dark">JS</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 70%">70%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col mb-4 mb-md-0 my-2">
-                                                    <span class="text-dark">Python</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 60%">60%</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card shadow border-0 rounded-4 mb-5">
-                                    <div class="card-body p-5">
-
-                                        <!-- Software list -->
-                                        <div class="mb-0">
-                                            <div class="d-flex align-items-center justify-content-center mb-4">
-                                                <h3 class="fw-bolder mb-0">
-                                                    <span class="text-gradient d-inline">Frameworks</span>
-                                                </h3>
-                                            </div>
-                                            <div class="row row-cols-1 row-cols-md-2 mb-4">
-                                                <div class="col mb-4 mb-md-0">
-                                                    <span class="text-dark">jQuery</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 100%">100%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col mb-4 mb-md-0">
-                                                    <span class="text-dark">MySQL</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 90%">90%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col mb-4 mb-md-0 my-2">
-                                                    <span class="text-dark">Laravel</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 100%">100%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col mb-4 mb-md-0 my-2">
-                                                    <span class="text-dark">VueJS</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
-                                                            role="progressbar" aria-label="Animated striped example"
-                                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                                            style="width: 60%">60%</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
         </div>
+        <!-- Skills Section 2-->
+        <section class="mb-4 col-12">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
 
+                    <!-- Prima card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0 rounded-4">
+                            <div class="card-body p-5">
+                                <div class="text-center mb-4">
+                                    <h3 class="fw-bolder text-gradient mb-0">Languages</h3>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-2 mb-4">
+                                    <div class="col mb-4">
+                                        <span class="text-dark">HTML5</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                                                role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 100%">100%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">CSS3</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 100%">100%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">JavaScript</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
+                                                role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 80%">80%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">PHP</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated"
+                                                role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 90%">90%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">Python</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar"
+                                                role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 85%;">
+                                                85%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">TypeScript</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info custom-progress-bar"
+                                                role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 70%;">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Seconda card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0 rounded-4">
+                            <div class="card-body p-5">
+                                <div class="text-center mb-4">
+                                    <h3 class="fw-bolder text-gradient mb-0">Frameworks</h3>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-2 mb-4">
+                                    <div class="col mb-4">
+                                        <span class="text-dark">Laravel</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                                                role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 100%">100%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">jQuery</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated"
+                                                role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 100%">100%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">VueJS</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                                                role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 100%">100%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <span class="text-dark">Bootstrap</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 100%">100%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terza card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0 rounded-4">
+                            <div class="card-body p-5">
+                                <div class="text-center mb-4">
+                                    <h3 class="fw-bolder text-gradient mb-0">Database</h3>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-2 mb-4">
+                                    <div class="col mb-4 mx-auto col-12">
+                                        <span class="text-dark">MySQL - SQL</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 90%">90%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </x-layout>

@@ -28,6 +28,11 @@ class PublicController extends Controller
         return view('about');
     }
 
+    public function services()
+    {
+        return view('service');
+    }
+
     public function send(Request $request)
     {
         $request->validate([
