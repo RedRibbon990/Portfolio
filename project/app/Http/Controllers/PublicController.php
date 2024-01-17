@@ -28,9 +28,17 @@ class PublicController extends Controller
         return view('about');
     }
 
+    protected $companyController;
+
+    public function __construct(CompanyController $companyController)
+    {
+        $this->companyController = $companyController;
+    }
+
     public function services()
     {
-        return view('service');
+        // Chiama il metodo service direttamente dall'istanza di CompanyController
+        return $this->companyController->service();
     }
 
     public function send(Request $request)

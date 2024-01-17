@@ -14,14 +14,14 @@ class CompanyController extends Controller
                 'name' => 'Sistema Gestionali',
                 'costo' => 1500,
                 'tempo_di_realizzazione' => '2 settimane',
-                'cover' => '\IMG\imgservizigestionali.jpg'
+                'cover' => '/IMG/apple-gestionale.png'
             ],
             [
                 'uri' => 'ecommerce',
                 'name' => 'Piattaforma eCommerce',
                 'costo' => 2500,
                 'tempo_di_realizzazione' => '3 settimane',
-                'cover' => '\IMG\imgserviziecom.jpg'
+                'cover' => '/IMG/e-commerce.png'
                 
             ],
             [
@@ -29,72 +29,79 @@ class CompanyController extends Controller
                 'name' => 'Siti Web',
                 'costo' => 1000,
                 'tempo_di_realizzazione' => '1 settimana',
-                'cover' => '\IMG\imgservizisiti.jpg'
+                'cover' => '/IMG/Tipologie-siti-web.webp'
             ],
             [
                 'uri' => 'marketing-digitale',
                 'name' => 'Marketing Digitale',
                 'costo' => 1800,
                 'tempo_di_realizzazione' => '2 settimane',
-                'cover' => '\IMG\imgservizimarketing.jpg'
+                'cover' => '/IMG/Digital-marketing.jpg'
             ],
             [
                 'uri' => 'app-mobile',
                 'name' => 'Applicazione Mobile',
                 'costo' => 3000,
                 'tempo_di_realizzazione' => '4 settimane',
-                'cover' => '\IMG\imphp2.avif'
+                'cover' => '/IMG/applicazioni-mobile.jpg'
             ],
             [
                 'uri' => 'seo',
                 'name' => 'Servizi SEO',
                 'costo' => 1200,
                 'tempo_di_realizzazione' => '2 settimane',
-                'cover' => '\IMG\imphp2.avif'
+                'cover' => '/IMG/servizi-seo.webp'
             ],
             [
                 'uri' => 'social-media',
                 'name' => 'Gestione Social Media',
                 'costo' => 800,
                 'tempo_di_realizzazione' => '1 settimana',
-                'cover' => '\IMG\imphp2.avif'
+                'cover' => '/IMG/social-network.jpg'
             ],
             [
                 'uri' => 'analisi-dati',
                 'name' => 'Analisi Dati',
                 'costo' => 2200,
                 'tempo_di_realizzazione' => '3 settimane',
-                'cover' => '\IMG\imphp2.avif'
+                'cover' => '/IMG/Analisi-Dati.webp'
             ],
             [
                 'uri' => 'design-grafico',
                 'name' => 'Design Grafico',
                 'costo' => 900,
                 'tempo_di_realizzazione' => '1 settimana',
-                'cover' => '\IMG\imgservizigestionali.jpg'
+                'cover' => '/IMG/Netflix.jpg'
             ],
             [
                 'uri' => 'formazione',
                 'name' => 'Formazione Online',
                 'costo' => 500,
                 'tempo_di_realizzazione' => '2 settimane',
-                'cover' => '\IMG\imphp2.avif'
+                'cover' => '/IMG/corsi-formazione.jpg'
             ],
         ];
     
-    
-    public function service() {
 
+    public function service() {
         return view('service', ['services' => self::$services]);
     }
 
     public function detail($nome){
-        
+        $selectedService = null;
+    
         foreach (self::$services as $service){
             if($nome == $service['uri']){
-                return view('detail' , ['nome' => $service]);
+                $selectedService = $service;
+                break;
             } 
         }
-        abort(404);
+    
+        if ($selectedService) {
+            return view('detail', ['service' => $selectedService]);
+        } else {
+            abort(404);
+        }
     }
+    
 }
