@@ -1,6 +1,6 @@
 <x-layout>
     <section class="py-3 bg-black">
-        <div class="container mt-5">
+        <div class="container">
             <h2 class="mb-4 text-center text-light">Servizi Offerti</h2>
             <div class="row justify-content-center">
                 @foreach($services as $service)

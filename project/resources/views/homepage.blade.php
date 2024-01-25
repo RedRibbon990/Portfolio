@@ -1,15 +1,16 @@
 <x-layout>
     <title>Portfolio - Samuele Di Cori -</title>
 
-    <header id="homepage" class="container px-5 py-5 d-flex flex-column h-100">
+    <header id="homepage" class="container px-5 py-5 d-flex flex-column h-100 bg-black my-3">
         <div class="row gx-5 align-items-center justify-content-center">
-            <div class="col-12 col-md-6 mb-4 text-center">
+            <div class="col-12 col-md-6 text-center">
                 <div class="d-flex flex-column align-items-center">
-                    <div id="homeImg" style="background-image: url('{{ asset('img/me.jpg') }}')" class="img-fluid"></div>
+                    <div id="homeImg" style="background-image: url('{{ asset('img/me.jpg') }}')"
+                        class="img-fluid"></div>
                     <h2 class="text-uppercase">Samuele Di Cori</h2>
                 </div>
             </div>
-            
+
             <div class="col-12 col-md-6">
                 <div class="text-container">
                     <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
@@ -21,7 +22,7 @@
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-md-start mb-3">
                         <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a>
                         <a class="btn btn-outline-danger btn-lg px-5 py-3 fs-6 fw-bolder"
-                            href="projects.html">Projects</a>
+                            href="https://github.com/RedRibbon990">Projects</a>
                     </div>
                 </div>
             </div>
@@ -29,14 +30,45 @@
     </header>
 
     <main>
+        <h2 class="text-center mb-4">Some simple examples</h2>
+        <section class="background-section shadow text-black bg-black d-flex justify-content-center">
+            <div class="container bg-black">
+
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ asset('img/ex1.webp') }}" class="d-block w-75 mx-auto img-fluid" alt="Immagine 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{asset('img/ex2.webp')}}" class="d-block w-75 mx-auto img-fluid" alt="Immagine 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{asset('img/ex3.webp')}}" class="d-block w-75 mx-auto img-fluid" alt="Immagine 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <section class="bg-light py-5">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xxl-8">
                         <div class="text-center my-5">
                             <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-                            <p class="lead fw-light mb-4">My name is Samuele di Cori and I learned how to create websites and databases to grow your business.</p>
-                            <p class="text-muted">check my profile and find the most suitable service for you. Contact me for a custom need or specific information. In my portfolio you will find examples and links of my work, which is constantly improving.</p>
+                            <p class="lead fw-light mb-4">My name is Samuele di Cori and I learned how to create
+                                websites and databases to grow your business.</p>
+                            <p class="text-muted">check my profile and find the most suitable service for you. Contact
+                                me for a custom need or specific information. In my portfolio you will find examples and
+                                links of my work, which is constantly improving.</p>
                             <div class="d-flex justify-content-center fs-2 gap-4">
                                 <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
                                 <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
@@ -48,4 +80,5 @@
             </div>
         </section>
     </main>
+
 </x-layout>
