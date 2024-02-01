@@ -72,6 +72,12 @@
 
 }
 
+.ha:hover {
+    background-color: rgb(39, 207, 39);
+    border: none;
+    shape-margin: 30%;
+}
+
 /* Navbar */
 .sidebar {
     height: 100%;
@@ -164,6 +170,19 @@
     color: #ffffff;
 }
 
+/* Right side */
+.dx-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 3s ease;
+}
+
+.dx:hover .dx-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 #homeImg {
     background-size: cover;
     background-repeat: no-repeat;
@@ -193,5 +212,56 @@
     -webkit-text-fill-color: transparent;
 }
 
+/* Day/Night Switch */
+.dark-button {
+    position: relative;
+    cursor: pointer;
+}
 
+.dot {
+    height: 22px;
+    width: 22px;
+    top: 5px;
+    position: relative;
+    background-color: #8E24AA;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dark-dot {
+    height: 22px;
+    width: 22px;
+    top: 1%;
+    left: 77%;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0;
+}
+
+.card.card-dark .dark-dot {
+    animation: dark 0.5s ease-in forwards;
+}
+
+@keyframes dark {
+    0% {
+        opacity: 0.2;
+        top: 15%;
+        left: 70%;
+    }
+
+    50% {
+        opacity: 0.7;
+        top: 13%;
+        left: 75%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 7%;
+        left: 77%;
+    }
+}
 
