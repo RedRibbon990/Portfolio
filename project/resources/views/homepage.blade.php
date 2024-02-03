@@ -32,8 +32,8 @@
 
     <main>
         <h2 class="text-center mt-4 py-5">Some simple examples</h2>
-        <section class="background-section shadow text-black bg-dark d-flex justify-content-center">
-            <div class="container bg-dark">
+        <section class="background-section shadow text-black bg-black d-flex justify-content-center">
+            <div class="container bg-black">
                 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
